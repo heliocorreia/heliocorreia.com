@@ -1,0 +1,24 @@
+{
+  "name": "heliocorreia.com",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve  --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heliocorreia/heliocorreia.com.git"
+  },
+  "author": "Hélio Correia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heliocorreia/heliocorreia.com/issues"
+  },
+  "homepage": "https://github.com/heliocorreia/heliocorreia.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.5.2"
+  }
+}
