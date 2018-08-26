@@ -1,7 +1,7 @@
 module.exports = {
-    dir: {
-        input: "src",
-        output: "docs"
-    },
-    templateFormats: ["njk", "html", "md"]
+  dir: {
+      input: "src/structure",
+      output: "docs"
+  },
+  templateFormats: ["njk", "html", "md"]
 };
