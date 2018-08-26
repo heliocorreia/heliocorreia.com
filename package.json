@@ -4,7 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "eleventy",
+    "build": "npm run build:style && npm run build:structure",
+    "build:style": "postcss src/style/**/* --dir ./docs/assets/css/ --ext css --env production",
+    "build:structure": "eleventy",
     "start": "eleventy --serve  --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +21,14 @@
   },
   "homepage": "https://github.com/heliocorreia/heliocorreia.com#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.5.2"
+    "@11ty/eleventy": "^0.5.2",
+    "@csstools/postcss-sass": "^2.0.0",
+    "autoprefixer": "^9.1.3",
+    "cssnano": "^4.1.0",
+    "postcss": "^7.0.2",
+    "postcss-cli": "^6.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "stylelint": "^9.5.0",
+    "stylelint-config-sass-guidelines": "^5.0.0"
   }
 }
