@@ -3,7 +3,9 @@ module.exports = ctx => ({
   plugins: {
     stylelint: {
       extends: "stylelint-config-sass-guidelines",
-      rules: {}
+      rules: {
+        "max-nesting-depth": [2, {}]
+      }
     },
     "@csstools/postcss-sass": {
       outputStyle: 'expanded'
