@@ -9,9 +9,9 @@ I am a software engineer passionate about solving problems and currently living 
 
 ## About.
 
-As a Staff Software Engineer at Globo's entertainment branch, I have been partnering on huge projects aiming to support a production equivalent length of more than dozen feature films per day in all digital platforms. I’ve been working on projects such as Big Brother Brasil, soap operas, and realities and TV shows websites, news feeds, publishing platform, native mobile apps, ads integration, and search engine optimization.
+As a Staff Software Engineer at Globo's entertainment branch, I have been partnering on huge projects aiming to support productions length equivalent to more than dozen feature films per day in all digital platforms. I’ve been working on projects such as Big Brother Brasil, soap operas, and realities and TV shows websites, news feeds, publishing platform, native mobile apps, ads integration, and search engine optimization.
 
-I don't give a shit about trending techies. I do care about the user-centric approach, deep diving into digital and physical integrations, and push the web forward, towards an even more resilient media. I do believe in continuous integration, fail-fast systems, test driven development as a design tool, realign over redesign, and serendipity.
+I'm indifferent about trending techies. I do care about the user-centric approach, deep diving into digital and physical integrations, and push the web forward, towards an even more resilient media. I do believe in continuous integration, fail-fast systems, test driven development as a design tool, realign over redesign, and serendipity.
 
 I love physical books and coffee. I cheer on the Corinthians.
 
