@@ -7,7 +7,7 @@ title: Home
 
 I am a software engineer passionate about solving problems and currently living in Rio, Brazil, working for [Globo.com](https://www.globo.com) — largest media company in Latin America.
 
-## About.
+## About
 
 As a Staff Software Engineer at Globo's entertainment branch ([Gshow](https://gshow.globo.com/)), I have been partnering on huge projects aiming to support productions length equivalent to more than dozen feature films per day in all digital platforms. I’ve been working on projects such as Big Brother Brasil, soap operas, and realities and TV shows websites, news feeds, publishing platform, native mobile apps, ads integration, and search engine optimization.
 
@@ -15,7 +15,7 @@ I'm indifferent about trending techies. I do care about the user-centric approac
 
 I love physical books and coffee. I cheer on the [Corinthians](https://en.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista).
 
-## Skills.
+## Skills
 
 I believe in products over projects due to the opportunity to reorient quick, operate under a reduced cycle time, while having a strong focus on customers. Each problem requires a different toolkit, and these are the tools and methodologies I've been using recently:
 
@@ -40,6 +40,6 @@ __Tools & Technologies__
 * Storage: MySQL, MongoDB, Elastic Search, Lucene, Redis, Memcached
 * Operating System: Linux, OSX, Docker
 
-## Disclaimer.
+## Disclaimer
 
 The site is created with the best flavors of web standards, and uses GitHub Pages for publishing. The source code is available as a GitHub [repository](https://github.com/heliocorreia/heliocorreia.com). Its content and opinions are my own and do not represent my employer’s view in any way.

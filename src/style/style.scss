@@ -24,6 +24,11 @@ h3 {
   color: rgb(59, 59, 59);
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
+
+  &::after {
+    color: $primary-color;
+    content: '.';
+  }
 }
 
 h1 {
@@ -36,11 +41,6 @@ h1 {
     display: block;
     font-size: 2rem;
     font-weight: 100;
-  }
-
-  &::after {
-    color: $primary-color;
-    content: '.';
   }
 
   + p {
