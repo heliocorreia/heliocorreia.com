@@ -15,7 +15,7 @@ I'm indifferent about trending techies. I do care about the user-centric approac
 
 I love physical books and coffee. I cheer on the [Corinthians](https://en.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista).
 
-## Skills
+## Skills.
 
 I believe in products over projects due to the opportunity to reorient quick, operate under a reduced cycle time, while having a strong focus on customers. Each problem requires a different toolkit, and these are the tools and methodologies I've been using recently:
 
@@ -40,7 +40,7 @@ __Tools & Technologies__
 * Storage: MySQL, MongoDB, Elastic Search, Lucene, Redis, Memcached
 * Operating System: Linux, OSX, Docker
 
-## Disclaimer
+## Disclaimer.
 
 I am not an English native speaker. Please, let me known whether you spot any grammar improvements.
 
