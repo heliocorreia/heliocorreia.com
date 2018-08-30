@@ -42,6 +42,4 @@ __Tools & Technologies__
 
 ## Disclaimer.
 
-I am not an English native speaker. Please, let me known whether you spot any grammar improvements.
-
 The site is created with the best flavors of web standards, and uses GitHub Pages for publishing. The source code is available as a GitHub [repository](https://github.com/heliocorreia/heliocorreia.com). Its content and opinions are my own and do not represent my employer’s view in any way.
