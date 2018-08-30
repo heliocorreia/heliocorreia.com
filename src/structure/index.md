@@ -15,6 +15,31 @@ I'm indifferent about trending techies. I do care about the user-centric approac
 
 I love physical books and coffee. I cheer on the Corinthians.
 
+## Skills
+
+I believe in products over projects due to the opportunity to reorient quick, operate under a reduced cycle time, while having a strong focus on customers. Each problem requires a different toolkit, and these are the tools and methodologies I've been using recently:
+
+__Industry Knowledge__
+
+* Search Engine Optimization (SEO)
+* Test Driven Development (TDD)
+* Content Management Systems (CMS)
+* Agile Practices
+* Distributed Systems
+* Scalable Web Architectures
+
+__Tools & Technologies__
+
+* Web Standards: HTML, CSS, SVG, Accessibility, Web typography
+* Languages: Python, JavaScript, Shell Script, Golang, PHP
+* JavaScript Stack: NodeJS, React, React Native, TypeScript, NPM
+* Assets Management: Webpack, Rollup, Sass
+* Source Control: Git, Gitlab, Jenkins
+* Configuration Management: Puppet, Chef
+* Monitoring: NewRelic, Grafana, Graylog
+* Storage: MySQL, MongoDB, Elastic Search, Lucene, Redis, Memcached
+* Operating System: Linux, OSX, Docker
+
 ### Site
 
 The site is created with the best flavors of web standards, and uses GitHub Pages for publishing. The source code is available as a GitHub repository.
