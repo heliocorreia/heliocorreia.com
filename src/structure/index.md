@@ -42,4 +42,4 @@ __Tools & Technologies__
 
 ## Disclaimer
 
-The site is created with the best flavors of web standards, and uses GitHub Pages for publishing. The source code is available as a GitHub [repository](https://github.com/heliocorreia/heliocorreia.com). Its content and opinions are my own and do not represent my employer’s view in any way.
+This site uses the best flavors of web standards, [Eleventy](https://www.11ty.io/) as a static site generator, and GitHub Pages for web hosting. The source code is available as a [repository](https://github.com/heliocorreia/heliocorreia.com). The content and opinions here are my own and do not represent my employer’s view in any way.
