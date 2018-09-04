@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "run-p -l build:**",
-    "build:style": "postcss src/style/**/* --dir ./docs/assets/css/ --ext css --env production",
+    "build:style": "postcss src/style/**/* --dir ./docs/assets/css/ --ext css --env production --no-map",
     "build:structure": "eleventy",
     "watch": "run-p -rl watch:style watch:structure",
     "watch:style": "postcss src/style/**/* --dir ./docs/assets/css/ --ext css --watch",
