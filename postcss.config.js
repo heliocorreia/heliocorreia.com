@@ -4,7 +4,7 @@ module.exports = ctx => ({
     stylelint: {
       extends: "stylelint-config-sass-guidelines",
       rules: {
-        "max-nesting-depth": [2, {}]
+        "max-nesting-depth": [3, {}]
       }
     },
     "@csstools/postcss-sass": {

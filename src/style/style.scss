@@ -1,3 +1,5 @@
+@import 'fonts';
+
 $primary-color: #fd256e;
 $secondary-color: #da0202;
 
@@ -6,8 +8,8 @@ body {
   border: solid $primary-color;
   border-width: 0.25em 0 1em;
   color: #3b3b3b;
-  font-family: system-ui, -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
-  font-size: 1.125em;
+  font-family: Roboto, system-ui, -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+  font-size: 1.5em;
   line-height: 1.5;
   margin: 0;
   padding-bottom: 2em;
@@ -16,7 +18,7 @@ body {
 main {
   margin: 0 auto;
   max-width: 40em;
-  padding: 0 2em;
+  padding: 0 1em;
 }
 
 h1,
@@ -46,7 +48,6 @@ h1 {
   }
 
   + p {
-    font-size: 1.25rem;
     padding-top: 2em;
     position: relative;
     text-align: center;
@@ -71,44 +72,49 @@ h2 {
   margin-top: 5rem;
 }
 
-ul:first-of-type {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
 
-  a,
-  path {
-    transition-duration: 300ms;
-    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  }
+ul {
+  padding-left: 1em;
 
-  a {
-    background: rgba(#f3f3f3, 0.99);
-    border: 1px solid rgba(#f3f3f3, 0.1);
-    display: inline-block;
-    padding: 0.75em;
-    transition-property: background-color;
-  }
+  &:first-of-type {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
 
-  svg {
-    height: auto;
-    vertical-align: middle;
-    width: 1.5em;
-  }
+    a,
+    path {
+      transition-duration: 300ms;
+      transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
 
-  path {
-    fill: #3b3b3b;
-    transition-property: fill;
-  }
+    a {
+      background: rgba(#f3f3f3, 0.99);
+      border: 1px solid rgba(#f3f3f3, 0.1);
+      display: inline-block;
+      padding: 0.5em;
+      transition-property: background-color;
+    }
 
-  a:hover {
-    background: rgba(#3b3b3b, 0.99);
+    svg {
+      height: auto;
+      vertical-align: middle;
+      width: 1.5em;
+    }
 
     path {
-      fill: #f3f3f3;
+      fill: #3b3b3b;
+      transition-property: fill;
+    }
+
+    a:hover {
+      background: rgba(#3b3b3b, 0.99);
+
+      path {
+        fill: #f3f3f3;
+      }
     }
   }
 }
