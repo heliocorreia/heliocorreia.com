@@ -1,4 +1,5 @@
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("src/structure/img");
   eleventyConfig.addPassthroughCopy("src/structure/favicon.ico");
   eleventyConfig.addPassthroughCopy("src/structure/andrew-neel-308138-unsplash-low.jpg");
 
