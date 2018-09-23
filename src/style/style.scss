@@ -3,206 +3,199 @@
 $primary-color: #5710c6;
 $secondary-color: #c2a5a5;
 
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
 html {
   background: $primary-color;
 }
 
 body {
   background: $primary-color;
+  color: #4c4c4c;
   font-family: 'Raleway', system-ui, -apple-system, sans-serif;
   font-size: 1.125rem;
+  line-height: 1.3636;
   margin: 0;
 }
 
 main {
   margin: 0 auto;
-  padding: 0 1rem 1rem 1rem;
+  max-width: 83.3125rem;
+  padding: 0 1rem;
 }
 
 section {
   display: grid;
   grid-gap: 0 1.25rem;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(24, 1fr);
   margin: 0;
   padding: 2rem 0;
-
-  h2 {
-    grid-column: 2 / 5;
-    margin-top: 0;
-  }
-
-  :not(h2) {
-    grid-column: 5 / 12;
-    margin-top: 0;
-  }
-
-  &:first-of-type,
-  &:last-of-type {
-    color: #fff;
-
-    * {
-      grid-column: 2 / 12;
-    }
-  }
-
-  &:first-of-type {
-    padding: 6rem 0;
-
-    h2 {
-      font-size: 3.75rem;
-    }
-
-    p {
-      font-size: 2.8125rem;
-    }
-  }
-
-  & ~ & {
-    background: #fff;
-  }
-
-  &:last-of-type {
-    background: #000;
-
-    h2 {
-      font-size: 1.125rem;
-      font-weight: 400;
-    }
-  }
 }
 
 h2 {
-  font-family: 'Raleway', system-ui, -apple-system, sans-serif;
+  color: #fff;
   font-size: 2.625rem;
   font-weight: 700;
+  margin: 0;
 }
 
 h3 {
   font-size: 1.375rem;
-  font-weight: 400;
+  font-weight: bold;
 }
 
-/*
-
-body {
-  background-color: #f3f3f3;
-  border: solid $primary-color;
-  border-width: 0.25em 0 1em;
-  color: #3b3b3b;
-  font-family: Roboto, system-ui, -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
-  font-size: 1.5em;
-  line-height: 1.5;
-  margin: 0;
-  padding-bottom: 2em;
+a {
+  color: $primary-color;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-main {
-  margin: 0 auto;
-  max-width: 40em;
-  padding: 0 1em;
+li {
+  font-size: 1.125rem;
+  line-height: 2.5;
 }
 
-h1,
-h2,
-h3 {
-  color: rgb(59, 59, 59);
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
+.credit-heroimg {
+  display: none;
+}
 
-  &::after {
-    color: $primary-color;
-    content: '.';
+#intro,
+#disclaimer {
+  color: #fff;
+  min-height: 1vm;
+
+  * {
+    grid-column: 3 / 23;
+  }
+
+  a {
+    color: #fff;
   }
 }
 
-h1 {
-  font-size: 3rem;
-  line-height: normal;
-  margin: 2em 0;
-  text-align: center;
+#about,
+#skills,
+#contact {
+  background: #fff;
 
-  &::before {
-    content: "Howdy! I'm";
-    display: block;
-    font-size: 2rem;
-    font-weight: 100;
+  * {
+    grid-column: 10 / 23;
   }
 
-  + p {
-    padding-top: 2em;
-    position: relative;
-    text-align: center;
+  h2 {
+    color: #000;
+    grid-column: 3 / 8;
 
-    &::before {
-      $width: 2em;
-      background: #3b3b3b;
-      content: '';
-      display: inline-block;
-      height: 1px;
-      left: 50%;
-      margin-left: $width/-2;
-      position: absolute;
-      top: 0;
-      width: $width;
-      z-index: 1;
+    &::after {
+      content: '.';
     }
   }
 }
 
-h2 {
-  margin-top: 5rem;
+#intro {
+  padding: 12rem 0 8rem;
+
+  h2 {
+    font-size: 3.75rem;
+    margin: 0;
+  }
+
+  p {
+    font-size: 2.8125rem;
+    margin-top: 1em;
+  }
 }
 
+#about {
+  border-radius: 4px 4px 0 0;
+  padding-top: 12rem;
+}
 
-ul {
-  padding-left: 1em;
+#contact {
+  padding-bottom: 8rem;
 
-  &:first-of-type {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  ul {
     list-style: none;
-    padding: 0;
+    margin: 0;
+  }
 
-    a,
-    path {
-      transition-duration: 300ms;
-      transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  li + li {
+    border-top: 1px solid #dadada;
+  }
+
+  a {
+    display: block;
+    position: relative;
+    transition: padding 350ms cubic-bezier(0.22, 0.61, 0.36, 1);
+
+    &::after {
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/></svg>') no-repeat top center;
+      background-size: cover;
+      content: '';
+      font-size: 24px;
+      height: 1em;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1em;
     }
 
-    a {
-      background: rgba(#f3f3f3, 0.99);
-      border: 1px solid rgba(#f3f3f3, 0.1);
-      display: inline-block;
-      padding: 0.5em;
-      transition-property: background-color;
-    }
+    &:hover {
+      background: $primary-color;
+      color: #fff;
+      padding-left: 1em;
 
-    svg {
-      height: auto;
-      vertical-align: middle;
-      width: 1.5em;
-    }
-
-    path {
-      fill: #3b3b3b;
-      transition-property: fill;
-    }
-
-    a:hover {
-      background: rgba(#3b3b3b, 0.99);
-
-      path {
-        fill: #f3f3f3;
+      &::after {
+        display: none;
       }
     }
   }
 }
 
-a {
-  border-bottom: $secondary-color dotted 1px;
-  color: $secondary-color;
-  text-decoration: none;
+#disclaimer {
+  background: #000;
+
+  * {
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 1em 0 0;
+  }
 }
-//*/
+
+/* hero image */
+@supports (mix-blend-mode: luminosity) {
+  main {
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      background: url('../../andrew-neel-308138-unsplash-low.jpg') no-repeat top center;
+      background-size: cover;
+      box-shadow: inset 0 0 40px 20px $primary-color;
+      content: '';
+      display: block;
+      height: 0;
+      left: 0;
+      mix-blend-mode: luminosity;
+      opacity: 0.1;
+      padding-bottom: 65.25%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -1;
+    }
+  }
+
+  .credit-heroimg {
+    display: block;
+  }
+}

@@ -4,6 +4,7 @@ module.exports = ctx => ({
     stylelint: {
       extends: "stylelint-config-sass-guidelines",
       rules: {
+        "selector-max-id": 1,
         "max-nesting-depth": [3, {}]
       }
     },
