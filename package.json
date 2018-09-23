@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "build": "run-p -l build:**",
-    "build:style": "postcss src/style/style.scss --dir ./docs/assets/css/ --ext css --env production --no-map",
+    "build:style": "postcss src/style/style.scss --dir ./docs/css/ --ext css --env production --no-map",
     "build:structure": "eleventy",
     "watch": "run-p -rl watch:style watch:structure",
-    "watch:style": "postcss src/style/style.scss --dir ./docs/assets/css/ --ext css --watch",
+    "watch:style": "postcss src/style/style.scss --dir ./docs/css/ --ext css --watch",
     "watch:structure": "eleventy --serve  --watch",
     "start": "run-s watch",
     "test": "echo \"Error: no test specified\" && exit 1"
